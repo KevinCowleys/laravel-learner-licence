@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AssessmentController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,5 +15,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('assessment-selection');
+})->name('home');
+
+Route::group(['prefix' => 'assessment'], function () {
+    Route::get('/{testType}/{testNumber}/', [AssessmentController::class, 'createAssessment'])->where(['testType' => '[0-9]', 'testNumber' => '[0-9]', 'assessmentId' => '[0-9]+'])->name('createAssessment');
+    Route::get('/{testType}/{testNumber}/{assessmentId}/', [AssessmentController::class, 'loadAssessment'])->where(['testType' => '[0-9]', 'testNumber' => '[0-9]', 'assessmentId' => '[0-9]+'])->name('loadAssessment');
+    Route::get('/{testType}/{testNumber}/{assessmentId}/results', [AssessmentController::class, 'loadAssessmentResult'])->where(['testType' => '[0-9]', 'testNumber' => '[0-9]', 'assessmentId' => '[0-9]+'])->name('loadAssessmentResult');
+    Route::get('/{testType}/{testNumber}/{assessmentId}/incorrect_answers', [AssessmentController::class, 'loadIncorrectAnswers'])->where(['testType' => '[0-9]', 'testNumber' => '[0-9]', 'assessmentId' => '[0-9]+'])->name('loadIncorrectAnswers');
 });
+
+Route::get('/assessments', [AssessmentController::class, 'renderAssessments'])->name('assessments');

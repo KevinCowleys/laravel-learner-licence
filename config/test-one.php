@@ -5,9 +5,9 @@
 // 3 = Controls 6/8
 
 return [
-    1 => [
+    0 => [
         [
-            'question' => 'What is compulsory with respect to a seatbelt.',
+            'question' => 'What is compulsory with respect to a seatbelt?',
             'correct' => 2,
             'answers' => [
                 0 => 'It is compulsory to wear a seatbelt while reversing or moving in or out of a parking bay or area.',
@@ -82,7 +82,7 @@ return [
             ]
         ],
         [
-            'question' => 'The driver/rider of a vehicle must yield right of way, slow down or stop, if necessary in order to yield right of way to a ...',
+            'question' => 'The driver/rider of a vehicle must yield right of way, slow down or stop, if necessary in order to yield right of way to a...',
             'correct' => 2,
             'answers' => [
                 0 => 'Vehicle in a mini-circle.',
@@ -91,7 +91,7 @@ return [
             ]
         ],
         [
-            'question' => 'This road sign alerts drivers or riders of a ...',
+            'question' => 'This road sign alerts drivers or riders of a...',
             'image' => 'sharp-right-curve.webp',
             'correct' => 1,
             'answers' => [
@@ -129,7 +129,7 @@ return [
             ]
         ],
         [
-            'question' => 'This guidance road marking warns you to be on a look out for ...',
+            'question' => 'This guidance road marking warns you to be on a look out for...',
             'image' => 'bicycle-crossing-lines.webp',
             'correct' => 2,
             'answers' => [
@@ -186,7 +186,7 @@ return [
             ]
         ],
         [
-            'question' => 'This road sign notifies road users about ...',
+            'question' => 'This road sign notifies road users about...',
             'image' => 'series-of-curves-ahead.webp',
             'correct' => 2,
             'answers' => [
@@ -196,7 +196,7 @@ return [
             ]
         ],
         [
-            'question' => 'When driving/riding you should always ...',
+            'question' => 'When driving/riding you should always...',
             'correct' => 2,
             'answers' => [
                 0 => 'Do so at a speed of 60 km/h.',
@@ -215,7 +215,7 @@ return [
             ]
         ],
         [
-            'question' => 'When you lane change you should make sure that ...',
+            'question' => 'When you lane change you should make sure that...',
             'correct' => 2,
             'answers' => [
                 0 => 'You change lanes whenever you feel like.',
@@ -234,7 +234,7 @@ return [
             ]
         ],
         [
-            'question' => 'If you decide to stop or turn to the left or to the right, you should ...',
+            'question' => 'If you decide to stop or turn to the left or to the right, you should...',
             'correct' => 0,
             'answers' => [
                 0 => 'Indicate your intention in good time.',
@@ -272,7 +272,7 @@ return [
             ]
         ],
         [
-            'question' => 'You may not stop your vehicle ...',
+            'question' => 'You may not stop your vehicle...',
             'correct' => 1,
             'answers' => [
                 0 => 'When a traffic officer instructs you to do so.',
@@ -291,7 +291,7 @@ return [
             ]
         ],
     ],
-    2 => [
+    1 => [
         [
             'question' => '... is the minimum following distance for light motor vehicles and motorcycles.',
             'correct' => 2,
@@ -302,7 +302,7 @@ return [
             ]
         ],
         [
-            'question' => 'This road sign warns riders or drivers about the ...',
+            'question' => 'This road sign warns riders or drivers about the...',
             'image' => 'lanes-merge.webp',
             'correct' => 2,
             'answers' => [
@@ -312,7 +312,7 @@ return [
             ]
         ],
         [
-            'question' => 'Within an urban area, you may not leave your vehicle abundant for more than ...',
+            'question' => 'Within an urban area, you may not leave your vehicle abundant for more than...',
             'correct' => 1,
             'answers' => [
                 0 => '3 days.',
@@ -369,7 +369,7 @@ return [
             ]
         ],
         [
-            'question' => 'An SABS approved number plate(s) shall be affixed to a vehicle ...',
+            'question' => 'An SABS approved number plate(s) shall be affixed to a vehicle...',
             'correct' => 2,
             'answers' => [
                 0 => 'In such a manner that the whole number plate has a dark background.',
@@ -388,7 +388,7 @@ return [
             ]
         ],
         [
-            'question' => 'A driver/rider of a vehicle shall not enter/cross a public road if ...',
+            'question' => 'A driver/rider of a vehicle shall not enter/cross a public road if...',
             'correct' => 0,
             'answers' => [
                 0 => 'There is obstruction and moving traffic.',
@@ -407,7 +407,7 @@ return [
             ]
         ],
         [
-            'question' => 'A driver/rider of a vehicle on a public road should stop if ...
+            'question' => 'A driver/rider of a vehicle on a public road should stop if...
 (i) He/She is in compliance with a direction conveyed by a traffic sign.
 (ii) He/She was signalled by a person leading or driving any bovine animals on the road.
 (iii) Animals are seen crossing the road and can only move on when all the animals have crossed and the road is safe to continue.',
@@ -448,7 +448,7 @@ return [
             ]
         ],
         [
-            'question' => 'A driver of a vehicle or a rider of a motorcycle can disobey any road traffic sign or rule of the road if ...',
+            'question' => 'A driver of a vehicle or a rider of a motorcycle can disobey any road traffic sign or rule of the road if...',
             'correct' => 0,
             'answers' => [
                 0 => 'Ordered to do so by a traffic officer.',
@@ -457,7 +457,7 @@ return [
             ]
         ],
         [
-            'question' => 'This road sign is called ...',
+            'question' => 'This road sign is called...',
             'image' => 'fingerboard.webp',
             'correct' => 1,
             'answers' => [
@@ -476,7 +476,7 @@ return [
             ]
         ],
         [
-            'question' => 'This road sign gives notice to road users that ...',
+            'question' => 'This road sign gives notice to road users that...',
             'image' => 'lane-ends.webp',
             'correct' => 2,
             'answers' => [
@@ -486,7 +486,7 @@ return [
             ]
         ],
         [
-            'question' => 'When are you allowed to drive on the shoulder of the road ...
+            'question' => 'When are you allowed to drive on the shoulder of the road...
 (i) Between sunset and sunrise.
 (ii) When the public road is clearly discernible at a distance of at least 150 metres.
 (iii) When you won\'t destruct traffic or endanger other road users.',
@@ -498,7 +498,7 @@ return [
             ]
         ],
         [
-            'question' => 'This road sign warns drivers or riders that ...',
+            'question' => 'This road sign warns drivers or riders that...',
             'image' => 'traffic-movements-affected-by-an-obstruction.webp',
             'correct' => 0,
             'answers' => [
@@ -508,7 +508,7 @@ return [
             ]
         ],
         [
-            'question' => 'You may only drive on the shoulder of the road if ...',
+            'question' => 'You may only drive on the shoulder of the road if...',
             'correct' => 2,
             'answers' => [
                 0 => 'You want to beat traffic.',
@@ -527,7 +527,7 @@ return [
             ]
         ],
         [
-            'question' => 'If another vehicle intends to overtake you, you should ...',
+            'question' => 'If another vehicle intends to overtake you, you should...',
             'correct' => 2,
             'answers' => [
                 0 => 'Drive as near to the right edge of the roadway as is possible.',
@@ -546,7 +546,7 @@ return [
             ]
         ],
         [
-            'question' => 'For the next 500m you are prohibited from ...',
+            'question' => 'For the next 500m you are prohibited from...',
             'image' => 'overtaking-prohibited.webp',
             'correct' => 2,
             'answers' => [
@@ -556,7 +556,7 @@ return [
             ]
         ],
         [
-            'question' => 'The road sign prohibits drivers from ...',
+            'question' => 'The road sign prohibits drivers from...',
             'image' => 'no-motor-cars-during-indicated-period.webp',
             'correct' => 0,
             'answers' => [
@@ -576,7 +576,7 @@ return [
             ]
         ],
         [
-            'question' => 'This command sign informs you that this part of the road may be used by ...',
+            'question' => 'This command sign informs you that this part of the road may be used by...',
             'image' => 'motor-cars-only.webp',
             'correct' => 1,
             'answers' => [
@@ -586,7 +586,7 @@ return [
             ]
         ],
     ],
-    3 => [
+    2 => [
         [
             'question' => 'Which control is used to accelerate your vehicle?',
             'image' => 'light-motor-vehicle-manual-gearbox.webp',
